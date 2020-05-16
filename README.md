@@ -9,5 +9,7 @@ Demo - https://i2wur.csb.app/
 5. Drag and Drop or click to upload file supported
 
 **Cases not handled**
-1. Showing loader when changing filters and loading new date
-2. Handle large file and scroll issues if any
+1. Redux implementation
+2. Unit testing
+3. Showing loader when changing filters and loading new date
+4. Handle large file and scroll issues if any
