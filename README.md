@@ -7,3 +7,7 @@ Demo - https://i2wur.csb.app/
 3. Default delimiter to be `,` and default no of lines to be `2`
 4. Table columns to be fixed to `4` always.
 5. Drag and Drop or click to upload file supported
+
+**Cases not handled**
+1. Showing loader when changing filters and loading new date
+2. Handle large file and scroll issues if any
