@@ -64,13 +64,14 @@ export default function App() {
 
   const getContents = file => {
     setFilters(initialFilters);
-    setFileError({ empty: false, type: file.error }); // reset error
+    setFileError({ empty: false, type: false });
 
     if (!file.error) {
       const contents = file.contents;
-      if (!contents) setFileError({ ...fileError, empty: true });
+      if (!contents) setFileError({ empty: true, type: false });
       setFileContents(contents);
     } else {
+      setFileError({ empty: false, type: true });
       setFileContents(null);
     }
   };
