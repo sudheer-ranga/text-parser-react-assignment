@@ -1,0 +1,19 @@
+.filters-wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    min-width: 200px;
+    font-size: 14px;
+    margin-right: 25px;
+    
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+

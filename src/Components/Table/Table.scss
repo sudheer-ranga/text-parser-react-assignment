@@ -1,0 +1,20 @@
+.table-wrapper {
+  table {
+    /* width: 750px; */
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+  
+  /* Zebra striping */
+  tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    font-size: 18px;
+    min-width: 100px;
+    padding: 10px;
+    text-align: left;
+  }
+}
